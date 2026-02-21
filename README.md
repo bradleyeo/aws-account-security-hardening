@@ -34,7 +34,7 @@ The architecture separates identity from privilege:
 
 _(Architecture diagram will be added.)_
 
----
+
 
 ## Root Hardening
 
@@ -45,7 +45,7 @@ _(Architecture diagram will be added.)_
 
 _(Screenshot: Root governance configuration)_
 
----
+
 
 ## Role-Based Access Control (RBAC)
 
@@ -57,7 +57,7 @@ Administrative privileges are attached only to roles.
 
 _(Screenshot: IAM role and group configuration)_
 
----
+
 
 ## MFA-Enforced Privilege Elevation
 
@@ -67,7 +67,7 @@ This prevents privilege escalation via credential theft.
 
 _(Screenshot: Trust policy with MFA condition)_
 
----
+
 
 ## Validation Testing
 
@@ -85,7 +85,7 @@ User assumed CloudSecurityAdminRole and successfully performed administrative ac
 
 _(Screenshot: Assumed role session banner)_
 
----
+
 
 ## Logging & Governance
 
@@ -97,13 +97,13 @@ CloudTrail was enabled to ensure audit visibility of identity changes.
 
 _(Screenshot: CloudTrail and lifecycle configuration)_
 
----
+
 
 ## Key Security Principle
 
 Separation of authentication and authorization through temporary, MFA-enforced role-based access control to minimize blast radius and eliminate permanent administrative exposure.
 
----
+
 
 ## Production Improvements
 
