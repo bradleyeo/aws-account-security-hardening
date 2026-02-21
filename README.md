@@ -38,8 +38,7 @@ _(Architecture diagram will be added.)_
 - Not used for daily operations
 - CloudTrail enabled before IAM configuration
 
-_(Screenshot: Root governance configuration)_
-
+![Root MFA Enabled](screenshots/root-mfa.png)
 
 
 ## Role-Based Access Control (RBAC)
@@ -50,7 +49,10 @@ Groups are granted `sts:AssumeRole` permission to elevate into privileged roles.
 
 Administrative privileges are attached only to roles.
 
-_(Screenshot: IAM role and group configuration)_
+
+### Group AssumeRole Policy
+
+![Group Assume Role Policy](screenshots/group-assume-role.png)
 
 
 
@@ -60,8 +62,7 @@ Administrative role assumption requires MFA via trust policy condition.
 
 This prevents privilege escalation via credential theft.
 
-_(Screenshot: Trust policy with MFA condition)_
-
+![Trust Policy MFA](screenshots/assumed-role-mfa-enforced.png)
 
 
 ## Validation Testing
@@ -72,14 +73,13 @@ User attempted to create S3 bucket without assuming role.
 
 Result: Access Denied.
 
-_(Screenshot: Access denied error)_
+![Access Denied](screenshots/access-denied.png)
 
 ### Role Assumption
 
 User assumed CloudSecurityAdminRole and successfully performed administrative actions.
 
-_(Screenshot: Assumed role session banner)_
-
+![Role Assumed](screenshots/role-assumed.png)
 
 
 ## Logging & Governance
@@ -90,8 +90,7 @@ CloudTrail was enabled to ensure audit visibility of identity changes.
 - Log file validation enabled
 - 30-day lifecycle retention policy configured
 
-_(Screenshot: CloudTrail and lifecycle configuration)_
-
+![Lifecycle Policy](screenshots/lifecycle-policy.png)
 
 
 ## Key Security Principle
