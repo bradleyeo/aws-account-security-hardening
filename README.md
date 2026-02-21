@@ -2,7 +2,7 @@
 
 This project establishes a secure identity and governance baseline in AWS before deploying infrastructure. It focuses on account-Level Security Hardening Before Infrastructure Deployment (IAM, RBAC, MFA, CloudTrail)
 
-The objective was to eliminate permanent administrative access, enforce MFA-based privilege elevation, and implement audit visibility using CloudTrail.
+The objective is to eliminate permanent administrative access, enforce MFA-based privilege elevation, and implement audit visibility using CloudTrail.
 
 
 ## Security Objectives
