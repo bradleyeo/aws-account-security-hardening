@@ -8,7 +8,7 @@ This project establishes a secure identity and governance baseline in AWS before
 
 The objective was to eliminate permanent administrative access, enforce MFA-based privilege elevation, and implement audit visibility using CloudTrail.
 
----
+
 
 ## Security Objectives
 
@@ -19,7 +19,7 @@ The objective was to eliminate permanent administrative access, enforce MFA-base
 - Enable CloudTrail logging with lifecycle retention
 - Reduce blast radius of credential compromise
 
----
+
 
 ## Architecture Summary
 
