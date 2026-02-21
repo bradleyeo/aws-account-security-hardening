@@ -49,10 +49,9 @@ Groups are granted `sts:AssumeRole` permission to elevate into privileged roles.
 
 Administrative privileges are attached only to roles.
 
+![Group Assume Role Policy](screenshots/assume-role-policy.png)
 
-### Group AssumeRole Policy
-
-![Group Assume Role Policy](screenshots/group-assume-role.png)
+![Group Assume Role Policy](screenshots/group-assume-role01.png)
 
 
 
@@ -107,4 +106,4 @@ For enterprise environments:
 - Restrict trust policies to specific principals
 - Implement Service Control Policies (SCPs)
 - Shorten session duration
-- Centralize logging across multiple accounts
+- Centralize logging across multiple AWS accounts
