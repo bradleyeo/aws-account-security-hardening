@@ -27,7 +27,10 @@ The architecture separates identity from privilege:
 - Policies defining permission boundaries
 - CloudTrail for auditing
 
-_(Architecture diagram will be added.)_
+
+
+![Architecture_Diagram](screenshots/P1_Archi_Diagram.png)
+
 
 
 
