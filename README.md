@@ -44,6 +44,24 @@ The architecture separates identity from privilege:
 ![Root MFA Enabled](screenshots/root-mfa.png)
 
 
+
+## Logging & Governance
+
+CloudTrail was enabled to ensure audit visibility of identity changes.
+
+- Management events enabled
+- Log file validation enabled
+- 30-day lifecycle retention policy configured
+
+
+
+![CloudTrail Enabled](screenshots/cloudtrail-enabled.png)
+
+
+![Lifecycle Policy](screenshots/lifecycle-policy.png)
+
+
+
 ## Role-Based Access Control (RBAC)
 
 Users do not have direct administrative permissions.
@@ -82,17 +100,6 @@ Result: Access Denied.
 User assumed CloudSecurityAdminRole and successfully performed administrative actions.
 
 ![Role Assumed](screenshots/role-assumed.png)
-
-
-## Logging & Governance
-
-CloudTrail was enabled to ensure audit visibility of identity changes.
-
-- Management events enabled
-- Log file validation enabled
-- 30-day lifecycle retention policy configured
-
-![Lifecycle Policy](screenshots/lifecycle-policy.png)
 
 
 ## Key Security Principle
